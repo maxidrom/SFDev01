@@ -1,0 +1,59 @@
+Complete Katia's task of converting Leads
+    Description:
+        Task:
+            Create an auto conversion process for new leads with Website as source. If it matches an existing contact, merge it in and if it's new create it as prospect.
+        Additional:
+            Ekaterina Kurbatskaya  2:34 PM
+            Create an auto conversion process for new leads with Website as source. If it matches an existing contact, merge it in and if it's new create it as prospect
+
+            Dzmitry Sklipus  3:49 PM
+            какаято сложная для меня :smiley:
+            :smile:
+            1
+
+            3:49
+            а можно чуть больше контекста я может чтото не знаю в sf ?
+
+            Ekaterina Kurbatskaya  3:51 PM
+            автоматически конвертировать лида, если его сорс = Website
+
+            Dzmitry Sklipus  3:51 PM
+            Во!
+            3:51
+            и еще супер дуратский вопрос
+            3:52
+            во что лид конвертится?
+
+            Ekaterina Kurbatskaya  3:52 PM
+            проходить по базе контактов и, если такой контакт существует, то апдейтить этот контакт, если нет - создавать новый
+
+            Dzmitry Sklipus  3:52 PM
+            лид в контакт?
+
+            Ekaterina Kurbatskaya  3:54 PM
+            там персон аккаунты
+            3:54
+            то есть, лид в персон аккаунт
+
+            Dzmitry Sklipus  3:54 PM
+            ок
+            3:54
+            а реализовывать через апекс (edited)
+
+            Ekaterina Kurbatskaya  3:55 PM
+            а есть другие варианты?)
+
+            Dzmitry Sklipus  3:55 PM
+            ну думаю через процесбилдер или апекс триггер
+
+            Ekaterina Kurbatskaya  3:55 PM
+            конвертацию нельзя же сделать через процесс билдер (edited)
+
+            Sorry Kate, let's match on email
+            [3:02 PM] and don't create opportunity upon conversion
+            [3:02 PM] always convert to person account
+
+    Implement
+        TriggerManager
+        Git
+    Review
