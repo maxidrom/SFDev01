@@ -6,7 +6,7 @@ public without sharing class LeadService {
             leadsEmailList.add(lead.Email);
         }
         
-        //SELECT Contacts by Mail
+        //SELECT Contacts by Mail 
         List<Contact> contactsByMailList = [SELECT Name, AccountID, Email FROM Contact WHERE Email IN :leadsEmailList];
         //Create Map with Email as a key
         Map<String, Contact> contactsByMailMap = new Map<String, Contact>();
